@@ -1,0 +1,12 @@
+version: "~> 0.16.0"
+formatter: "markdown table"
+output:
+  file: "README.md"
+  mode: inject 
+sort:
+  enabled: true
+  by: name
+sections:
+  show:
+    - inputs
+    - outputs
